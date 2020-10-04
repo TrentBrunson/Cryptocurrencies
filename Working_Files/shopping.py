@@ -69,11 +69,11 @@ shopping_df.columns = shopping_df.columns.str.replace(" ", "")
 shopping_df.columns = shopping_df.columns.str.replace('[^a-zA-Z]', '')
 shopping_df
 # %%
-shopping_df
-# %%
-
-# %%
 # ***************
 # DATA TRANSFORMATION
 # ***************
+# %%
+# saving cleaned data
+out_file_path = "Resources/shopping_data_cleaned.csv"
+shopping_df.to_csv(out_file_path, index=False)
 # %%
