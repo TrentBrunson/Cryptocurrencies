@@ -7,7 +7,7 @@
 #%%
 import pandas as pd
 # %%
-file_path = "Resources\iris.csv"
+file_path = "Resources/iris.csv"
 iris_df = pd.read_csv(file_path)
 iris_df
 # %%
