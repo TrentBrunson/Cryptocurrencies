@@ -77,3 +77,5 @@ shopping_df
 out_file_path = "Resources/shopping_data_cleaned.csv"
 shopping_df.to_csv(out_file_path, index=False)
 # %%
+out_file_path2 = "Resources/shopping_data_cleaned.xls"
+shopping_df.to_excel(out_file_path2, index=False)
