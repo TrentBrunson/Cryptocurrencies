@@ -68,6 +68,6 @@ df_iris_pca.hvplot.scatter(
 	x="principal component 1",
 	y="principal component 2",
 	hover_cols=["class"],
-	by="class",
+	by="class"
 )
 # %%
